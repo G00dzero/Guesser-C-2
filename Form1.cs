@@ -56,7 +56,7 @@ namespace Guesser__C__2
                 else
                 {
                     Random random = new Random();
-                    int range = Math.Max(1, 100 - guessCount * 10); // Reduce range as guesses increase
+                    int range = Math.Max(1, 100 - guessCount * 10); 
                     int before = targetNumber - random.Next(1, range);
                     int after = targetNumber + random.Next(1, range);
 
